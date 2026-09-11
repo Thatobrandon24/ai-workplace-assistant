@@ -62,21 +62,21 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.75rem;
+  --background: oklch(0.985 0.003 247.858);
+  --foreground: oklch(0.21 0.03 256);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.21 0.03 256);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.21 0.03 256);
+  --primary: oklch(0.53 0.16 256);
+  --primary-foreground: oklch(0.99 0.005 247.858);
+  --secondary: oklch(0.955 0.008 250);
+  --secondary-foreground: oklch(0.32 0.04 256);
+  --muted: oklch(0.962 0.007 250);
+  --muted-foreground: oklch(0.52 0.03 256);
+  --accent: oklch(0.945 0.02 252);
+  --accent-foreground: oklch(0.35 0.08 256);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
   --border: oklch(0.929 0.013 255.508);
@@ -98,14 +98,14 @@
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
+  --background: oklch(0.19 0.02 258);
+  --foreground: oklch(0.97 0.005 247.858);
+  --card: oklch(0.24 0.024 258);
+  --card-foreground: oklch(0.97 0.005 247.858);
+  --popover: oklch(0.24 0.024 258);
+  --popover-foreground: oklch(0.97 0.005 247.858);
+  --primary: oklch(0.66 0.15 254);
+  --primary-foreground: oklch(0.18 0.03 258);
   --secondary: oklch(0.279 0.041 260.031);
   --secondary-foreground: oklch(0.984 0.003 247.858);
   --muted: oklch(0.279 0.041 260.031);
