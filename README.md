@@ -1,87 +1,134 @@
-# AI Workplace Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS-style web application called AI Workplace Productivity Assistant for professionals to automate common workplace tasks using AI.
+## Project Overview
 
-Main Features
+**AI Workplace Productivity Assistant** is a modern, responsive SaaS-style web application designed to help professionals automate common workplace tasks using AI.
 
-Smart Email Generator
+The application provides AI-powered tools for generating professional emails, summarizing meeting notes, extracting important meeting information, and interacting with an AI workplace assistant.
 
-Generate professional emails from user instructions.
+The project is designed as a **frontend-only application** and does not require user registration, login, a database, or a backend server.
 
-Support three tones: Formal, Friendly, Persuasive.
+## Features Implemented
 
-Allow users to edit and copy the generated email.
+### Smart Email Generator
 
-Meeting Notes Summarizer
+* Generate professional workplace emails using AI.
+* Supports multiple communication tones:
 
-Summarize lengthy meeting notes.
+  * Formal
+  * Friendly
+  * Persuasive
+* Allows users to edit generated emails.
+* Copy generated content to the clipboard.
 
-Automatically identify key points, action items, decisions, and deadlines.
+### Meeting Notes Summarizer
 
-Make the generated summary editable and copyable.
+* Summarize lengthy meeting notes using AI.
+* Extract important:
 
-AI Workplace Chatbot
+  * Key points
+  * Action items
+  * Decisions
+  * Deadlines
+* Generated summaries can be edited and copied.
 
-Interactive AI assistant for workplace questions and tasks.
+### AI Workplace Chatbot
 
-Users can enter prompts and receive AI-generated responses.
+* Interactive AI workplace assistant.
+* Users can enter workplace-related prompts.
+* Provides AI-generated responses.
+* Includes suggested prompts to help users get started.
 
-Include suggested workplace prompts to help users get started.
+### Dashboard
 
-Dashboard & Design
+* Modern SaaS-style dashboard.
+* Sidebar navigation.
+* Quick-access cards for AI tools.
+* Responsive layout for desktop, tablet, and mobile devices.
+* Clean grey and blue visual design.
 
-Modern professional dashboard UI.
+### Responsible AI
 
-Left sidebar navigation for Dashboard, Email Generator, Meeting Summarizer, and AI Assistant.
+The application includes a responsible AI disclaimer:
 
-Use a clean grey and blue colour scheme.
+> AI-generated content may contain errors or outdated information. Always review and verify AI outputs before using them for important workplace decisions.
 
-Responsive on desktop, tablet, and mobile.
+## Technologies and Tools Used
 
-SaaS-style cards, buttons, icons, spacing, and typography.
+* **HTML5** – Application structure and content
+* **CSS3** – Responsive styling and modern UI design
+* **JavaScript** – User interactions and application functionality
+* **AI / Generative AI** – Generation and processing of workplace content
+* **Git** – Version control
+* **GitHub** – Source code repository and project hosting
+* **Lovable** – AI-assisted application development and prototyping
 
-Include a dashboard overview with quick-access cards for each AI tool.
+## Setup Instructions
 
-Do not create registration, login, sign-up, or sign-in pages.
+### 1. Clone the Repository
 
-AI Experience
-
-All generated content and responses should be AI-generated.
-
-Use structured prompts behind each AI feature.
-
-AI outputs must be editable before copying or using them.
-
-Include loading states and clear error messages.
-
-Add copy-to-clipboard functionality.
-
-Responsible AI
-
-Include a visible disclaimer:
-“AI-generated content may contain errors or outdated information. Always review and verify AI outputs before using them for important workplace decisions.”
-
-Important
-
-This is a frontend-only application with no backend, database, authentication, or registration system. Focus on a polished, functional prototype with a modern grey-and-blue SaaS design.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/8a2b5ae9-904c-4a8b-8117-d69ed725525b).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```bash
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
 ```
+
+### 2. Open the Project
+
+Navigate to the project directory:
+
+```bash
+cd ai-workplace-productivity-assistant
+```
+
+### 3. Run the Application
+
+Since this is a frontend application, no backend or database setup is required.
+
+You can open the main HTML file directly in a web browser, or use a local development server such as **VS Code Live Server**.
+
+For example:
+
+```text
+Open index.html in your browser
+```
+
+### 4. Start Using the Application
+
+Use the sidebar to access:
+
+* Dashboard
+* Smart Email Generator
+* Meeting Notes Summarizer
+* AI Workplace Assistant
+
+Enter a prompt or workplace information and review the AI-generated output before using it.
+
+## Project Structure
+
+```text
+ai-workplace-productivity-assistant/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+└── README.md
+```
+
+## Important Note
+
+This project is currently a **frontend-only prototype**. It does not include:
+
+* User registration
+* Login or authentication
+* Backend services
+* Database storage
+* User accounts
+
+AI-generated information should always be reviewed and verified by the user before being used for important professional decisions.
+
+## License
+
+This project is intended for educational, demonstration, and portfolio purposes.
